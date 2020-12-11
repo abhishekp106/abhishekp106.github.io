@@ -20,16 +20,16 @@ const IndexPage = () => (
         gridGap: 3,
         gridTemplateColumns: '3fr 1fr',
       }}>
-      <Box width={[1, 2, 0.95]}>
+      <Box width={[1, 1, 0.95]}>
       <p>
-        Hi! I'm <b>Abhishek Pandya</b>, a student at the <a href="https://www.upenn.edu/">University of Pennsylvania</a> pursuing a BAS in <b>Computer Science</b> and a MSE in <b>Data Science</b>.
+        Hi! I'm <b>Abhishek Pandya</b>, a student at the <em>University of Pennsylvania</em> pursuing a BAS in <b>Computer Science</b> and a MSE in <b>Data Science</b>.
         I love teaching math and spreading the word about <b><a href="https://80000hours.org/key-ideas/">effective</a></b> <b><a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">altruism</a></b>.
         I am interested in AI Safety and Machine Learning, among other things.
         I am looking for SWE internships and research positions.
         I grew up in Central Jersey.
       </p>
     </Box>
-      <Box width={256}>
+      <Box width={[1, 1, 1]}>
         <Card
           sx={{
             p: 1,
