@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import "./header.css"
 import { AiOutlineTwitter, AiOutlineGithub, AiFillLinkedin, AiOutlineFilePdf, AiOutlineMail } from 'react-icons/ai';
-import {Box, Flex, Text, } from "rebass"
+//import {Box, Flex, Text, } from "rebass"
 // gradient from https://www.gradient-animator.com/
 
 const Header = ({ siteTitle }) => (

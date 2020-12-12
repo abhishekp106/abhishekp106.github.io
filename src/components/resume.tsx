@@ -115,25 +115,7 @@ const Resume: React.FC<Props> = () => (
       <ResumeItem>I arranged travels and logistics for my high school Science Olympiad team of 40+ members. I competed in many Earth Science events, and won multiple NJ state medals.</ResumeItem>
       <p></p>
 
-      <div
-        style={{
-            '--color-1': 'deepskyblue',
-            '--color-2': 'slateblue',
-            background: `
-            linear-gradient(
-                170deg,
-                var(--color-1),
-                var(--color-2) 80%
-            )
-            `,
-            // Unrelated styles:
-            color: 'white',
-            textAlign: 'center',
-            padding: 30,
-            borderRadius: 12,
-        }}>
-            Hello World
-      </div>
+      
   </Box>
 )
 

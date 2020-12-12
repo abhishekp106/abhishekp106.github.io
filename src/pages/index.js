@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import {Box, Card, Image, Heading, Text} from "rebass"
 
 import Layout from "../components/layout"
@@ -28,6 +27,7 @@ const IndexPage = () => (
         I am looking for SWE internships and research positions.
         I grew up in Central Jersey.
       </p>
+      <p>You can reach me at abpandya@seas.upenn.edu!</p>
     </Box>
       <Box width={[1, 1, 1]}>
         <Card
@@ -50,9 +50,11 @@ const IndexPage = () => (
     </Box>
     <p></p>
     <Resume />
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    
   </Layout>
 )
+
+/* <Link to="/page-2/">Go to page 2</Link> <br />
+<Link to="/using-typescript/">Go to "Using TypeScript"</Link> */
 
 export default IndexPage

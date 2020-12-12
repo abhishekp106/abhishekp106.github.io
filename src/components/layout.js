@@ -34,11 +34,26 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{
-          marginTop: `2rem`
+        <div
+        style={{
+            '--color-1': 'deepskyblue',
+            '--color-2': 'slateblue',
+            background: `
+            linear-gradient(
+                170deg,
+                var(--color-1),
+                var(--color-2) 80%
+            )
+            `,
+            // Unrelated styles:
+            color: 'white',
+            textAlign: 'center',
+            padding: 10,
+            borderRadius: 5,
+            height: '50px'
         }}>
-          Built by Abhishek Pandya using React, Gatsby, and Rebass
-        </footer>
+            Built by Abhishek Pandya using React, Gatsby, and Rebass
+      </div>
       </div>
     </>
   )
