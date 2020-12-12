@@ -4,12 +4,11 @@ import {Box, Card, Image, Heading, Text} from "rebass"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import avatar from "../images/avatar.png"
 import mom_n_me from "../images/mom_n_me.jpg"
 import Resume from "../components/resume";
 
-const avatar_heading = 'Me and mom ^'
-const avatar_description = 'I have new glasses now.'
+const avatar_heading = 'Me n mom ^'
+const avatar_description = 'Dolomites, Italy'
 
 const IndexPage = () => (
   <Layout>
@@ -34,10 +33,10 @@ const IndexPage = () => (
         <Card
           sx={{
             p: 1,
-            borderRadius: 2,
-            boxShadow: '0 0 16px rgba(0, 0, 0, .25)',
+            borderRadius: 5,
+            boxShadow: '0 0 16px rgba(0, 0, 0, .5)',
           }}>
-            <Image src={mom_n_me} width={[1, 1, 1]} />
+            <Image src={mom_n_me} width={[1, 1, 1]} sx={{borderRadius: 5}} />
             <Box px={2}>
               <Heading as='h3'>
                 {avatar_heading}
