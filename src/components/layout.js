@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <footer style={{
           marginTop: `2rem`
         }}>
-          Built by Abhishek Pandya
+          Built by Abhishek Pandya using React, Gatsby, and Rebass
         </footer>
       </div>
     </>
