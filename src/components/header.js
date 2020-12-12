@@ -7,32 +7,22 @@ import {Box} from "rebass"
 
 const Header = ({ siteTitle }) => (
   <header>
-    <Box
-      sx={{
-        display: 'grid',
-        gridGap: 3,
-        gridTemplateColumns: '1fr 1fr',
-      }}>
+    
       <div
         style={{
           margin: `0 auto`,
           maxWidth: 960,
           padding: `1.45rem 1.0875rem`,
-        }}
-      >
+        }}>
         <h1
           style={{ 
             margin: 0,
+            alignItems: 'left',
             color: 'white'
         }}>
-            <a href='/' style = {{
-              color: 'white', 
-              textDecoration: 'none', 
-              textShadow: 'none',
-              backgroundImage: 'none'
-              }}>
-              {siteTitle} 
-            </a>
+          <a href='/' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}>
+            {siteTitle} 
+          </a>
         </h1>
       </div>
       <div
@@ -40,12 +30,13 @@ const Header = ({ siteTitle }) => (
           margin: `0 auto`,
           maxWidth: 960,
           padding: `1.45rem 1.0875rem`,
+          alignItems: 'right',
         }}
       >
         <h1
           style={{ 
             margin: 0,
-            color: 'white'
+            color: 'white',
         }}>
           <a href='mailto:abpandya@seas.upenn.edu' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineMail /> </a>
           <a href='https://github.com/abhishekp106' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineGithub /> </a>
@@ -54,7 +45,7 @@ const Header = ({ siteTitle }) => (
           <a href='https://abhishekp106.github.io/resume_latex.pdf' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineFilePdf /> </a>
         </h1>
       </div>
-    </Box>
+    
   </header>
 )
 
