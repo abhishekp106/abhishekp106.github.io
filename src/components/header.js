@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
           <a href='https://github.com/abhishekp106' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineGithub /> </a>
           <a href='https://twitter.com/abhishekp106' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineTwitter /> </a>
           <a href='https://www.linkedin.com/in/abhishekanujpandya/' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiFillLinkedin /> </a>
-          <a href='https://abhishekp106.github.io/resume_latex.pdf' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineFilePdf /> </a>
+          <a href='/resources/resume.pdf' style = {{color: 'white', textDecoration: 'none', textShadow: 'none', backgroundImage: 'none'}}> <AiOutlineFilePdf /> </a>
         </h1>
         
       </div>
