@@ -1,6 +1,7 @@
 import React from "react"
 import {Box, Card, Image, Heading, Text} from "rebass"
 import {Tiles} from "@rebass/layout"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -14,6 +15,15 @@ import Picture from "../components/Picture";
 
 const avatar_heading = 'Me n mom ^'
 const avatar_description = 'Dolomites, Italy'
+
+const SectionHeader = styled.h2`
+    border-top: 2px solid #c7c7c7;
+    padding: .2rem 0 .4rem;
+    margin-bottom: 1.5rem;
+    font-weight: 900;
+    letter-spacing: -.05rem;
+`;
+// border-bottom: 2px solid #c7c7c7;
 
 const IndexPage = () => (
   <Layout>
@@ -56,17 +66,18 @@ const IndexPage = () => (
     </Box>
     <p></p>
     <Resume />
+    <SectionHeader><p></p>Images</SectionHeader>
     <Tiles columns={[2, null, 4]}>
+      <Picture src={fam} heading='Fam' description='Mom, Bo, Dac' />
       <Picture src={dolomites} heading='Dolomites' description='...' />
       <Picture src={yosemite} heading='Yosemite National Park' description='Half Dome' />
       <Picture src={banff} heading='Banff National Park' description='Lake Jasper' />
-      <Picture src={fam} heading='Fam' description='Mom, Bo, Dac' />
     </Tiles>
     <p></p>
   </Layout>
 )
 
-{/* <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
+{/* 
       <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
       <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
       <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' /> */}
