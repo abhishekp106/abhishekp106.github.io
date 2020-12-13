@@ -70,8 +70,8 @@ const IndexPage = () => (
     <Tiles columns={[2, null, 4]}>
       <Picture src={fam} heading='Fam' description='Mom, Bo, Dac' />
       <Picture src={dolomites} heading='Dolomites' description='...' />
-      <Picture src={yosemite} heading='Yosemite National Park' description='Half Dome' />
-      <Picture src={banff} heading='Banff National Park' description='Lake Jasper' />
+      <Picture src={yosemite} heading='Yosemite' description='Half Dome' />
+      <Picture src={banff} heading='Banff' description='Lake Jasper' />
     </Tiles>
     <p></p>
   </Layout>
