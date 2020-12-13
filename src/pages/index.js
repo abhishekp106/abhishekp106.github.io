@@ -1,10 +1,16 @@
 import React from "react"
 import {Box, Card, Image, Heading, Text} from "rebass"
+import {Tiles} from "@rebass/layout"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import mom_n_me from "../images/mom_n_me.jpg"
+import fam from "../images/fam.jpg"
+import banff from "../images/banff.jpg"
+import yosemite from "../images/yosemite.jpg"
+import dolomites from "../images/dolomites.jpg"
 import Resume from "../components/resume";
+import Picture from "../components/Picture";
 
 const avatar_heading = 'Me n mom ^'
 const avatar_description = 'Dolomites, Italy'
@@ -50,9 +56,20 @@ const IndexPage = () => (
     </Box>
     <p></p>
     <Resume />
-    
+    <Tiles columns={[2, null, 4]}>
+      <Picture src={dolomites} heading='Dolomites' description='...' />
+      <Picture src={yosemite} heading='Yosemite National Park' description='Half Dome' />
+      <Picture src={banff} heading='Banff National Park' description='Lake Jasper' />
+      <Picture src={fam} heading='Fam' description='Mom, Bo, Dac' />
+    </Tiles>
+    <p></p>
   </Layout>
 )
+
+{/* <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
+      <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
+      <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
+      <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' /> */}
 
 /* <Link to="/page-2/">Go to page 2</Link> <br />
 <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */
