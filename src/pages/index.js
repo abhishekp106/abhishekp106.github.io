@@ -38,11 +38,18 @@ const IndexPage = () => (
       <Box width={[1, 1, 0.95]}>
       <p>
         I'm <b>Abhishek Pandya</b>, a student at the <em>University of Pennsylvania</em> pursuing a BAS in <b>Computer Science</b> and a MSE in <b>Data Science</b>.
-        I love teaching math and spreading the word about <b><a href="https://80000hours.org/key-ideas/">effective</a></b> <b><a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">altruism</a></b>.
+        I love <a href="https://www.cis.upenn.edu/~cis160/current/">teaching</a> <a href="https://www.cis.upenn.edu/~cis121/current/">math</a> and spreading the word about <b><a href="https://80000hours.org/key-ideas/">effective</a></b> <b><a href="https://www.effectivealtruism.org/articles/introduction-to-effective-altruism/">altruism</a></b>.
         I am interested in AI Safety and Machine Learning, among other things.
-        I am looking for SWE internships and research positions.
-        I grew up in Central Jersey.
+        I am looking for SWE and research engineering positions.
       </p>
+      <p>Outside of class, I'm involved with:
+        <ul>
+          <li>Promoting <b>effective giving</b> and <b>effective altruism</b> with the Penn Undergrad Chapter of <a href ="https://www.1fortheworld.org/">One for the World</a> <span role="img" aria-label="globe">🌎</span></li>
+          <li>Building <b>software products</b> <span role="img" aria-label="male technologist">👨🏽‍💻</span> for nonprofits with <a href="https://hack4impact.org/">Hack4Impact</a></li>
+          <li>Teaching data structures and algorithms <span role="img" aria-label="abacus">🧮</span> as a <a href="https://www.cis.upenn.edu/~cis121/current/">CIS 121</a> TA</li>
+        </ul>
+      </p>
+      
       <p>You can reach me at abpandya@seas.upenn.edu!</p>
     </Box>
       <Box width={[1, 1, 1]}>
@@ -76,13 +83,5 @@ const IndexPage = () => (
     <p></p>
   </Layout>
 )
-
-{/* 
-      <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
-      <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' />
-      <Picture src='https://www.nasa.gov/sites/default/files/thumbnails/image/c34-1_0.jpg' heading='Caldwell 34' description='sss' /> */}
-
-/* <Link to="/page-2/">Go to page 2</Link> <br />
-<Link to="/using-typescript/">Go to "Using TypeScript"</Link> */
 
 export default IndexPage

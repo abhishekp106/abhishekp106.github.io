@@ -38,8 +38,11 @@ const Resume: React.FC<Props> = () => (
   <Box>
       <SectionHeader>Education</SectionHeader>
         <ResumeItemTitle>University of Pennsylvania</ResumeItemTitle>
+        <ResumeItemDetails>MSE, Data Science • 2020 — 2023</ResumeItemDetails>
+        <ResumeItem>Highlighted Courses: Machine Learning, Big Data Analytics, Statistics for Data Science</ResumeItem>
+        <p>GPA: 4.0</p>
         <ResumeItemDetails>BAS, Computer and Information Science • 2019 — 2023</ResumeItemDetails>
-        <ResumeItem>Coursework: Engineering Probability, Linear Algebra, Big Data Analytics, Discrete Mathematics, Scaling Operations in Tech Ventures </ResumeItem>
+        <ResumeItem>Highlighted Courses: Data Structures and Algorithms, Engineering Probability, Linear Algebra, Game Theory, Discrete Mathematics, Scaling Operations in Tech Ventures </ResumeItem>
         <p>GPA: 3.88</p>
 
         <ResumeItemTitle>South Brunswick High School</ResumeItemTitle>
@@ -60,6 +63,9 @@ const Resume: React.FC<Props> = () => (
       <p></p>
 
       <ResumeItemTitle>University of Pennsylvania, CIS Department</ResumeItemTitle>
+      <ResumeItemDetails>CIS 121 (Data Structures and Algorithms) Teaching Assistant • Jan, 2021 — Present</ResumeItemDetails>
+      <ResumeItem>Teaching Assistant for CIS 121: Data Structures and Algorithms. Responsibilities include holding weekly office hours, creating and grading homework assignments, and leading recitations of 20+ students.</ResumeItem>
+      <p>Topics Include: Big O Notation, Sorting, Heaps, Graph Algorithms, Hashing</p>
       <ResumeItemDetails>CIS 160 (Discrete Mathematics) Teaching Assistant • Jan, 2020 — Dec, 2020</ResumeItemDetails>
       <ResumeItem>Teaching Assistant for CIS 160: Mathematical Foundations of Computer Science. Responsibilities include holding weekly office hours, creating and grading homework assignments, and leading recitations of 20+ students.</ResumeItem>
       <p>Topics Include: Set Theory, Proof Techniques, Combinatorics, Probability, Graph Theory.</p>
