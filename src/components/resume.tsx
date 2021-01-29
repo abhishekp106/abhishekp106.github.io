@@ -56,6 +56,11 @@ const Resume: React.FC<Props> = () => (
         <ResumeItem>Highlighted Coursework: Data Structures, Game Theory, Intro to Data Science, Multivariable Calculus, Linear Algebra, Differential Equations, Complex Analysis</ResumeItem>
 
       <SectionHeader>Experience</SectionHeader>
+
+      <ResumeItemTitle>Amazon</ResumeItemTitle>
+      <ResumeItemDetails>Software Development Engineer (SDE) Intern • June 2021 - August 2021</ResumeItemDetails>
+      <ResumeItem> Incoming SDE Intern. Details forthcoming.</ResumeItem>
+      <p></p>
       
       <ResumeItemTitle>Keep.id</ResumeItemTitle>
       <ResumeItemDetails>Backend Software Engineer • July 2020 — September 2020</ResumeItemDetails>
